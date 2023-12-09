@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap');
+
+body {
+ font-family: Imbue;
+ font-size: large;
+ margin: 0;
+ background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=996&t=st=1694713310~exp=1694713910~hmac=f9bcc666cd201f77ecc016aaf2d29011044417f1a4cb6fd20f19362f2c9a5431);
+ background-size: cover; /*faz o navegador cobrir toda a área de fundo*/
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #033801;
+ background-color: rgba(111, 166, 120, 0.7);
+ text-shadow: 1px 1px 1px  rgba(255, 255, 255, 50%);
+ box-shadow: 0 0 5px 5px rgba(0, 55, 5, 0.5);
+ margin: 0;
+ margin-bottom: 40px;
+}
+
+fieldset {
+ width: 800px;
+ margin: auto;
+ background-color: #d9f8dbc4;
+ padding-top: 10px;
+ padding-left: 30px;
+ margin-bottom: 30px;
+}
+
+label.alinha {
+ display: inline-block;
+ width: 220px;
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+input[name="aluno"] {
+ width: 350px;
+}
+
+input {
+ font-family: Imbue;
+}
+
+
+button {
+ font-family: Imbue;
+ width: 350px; 
+ height: 40px;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 10px; 
+ margin-bottom: 20px;
+}
+
+p {
+ border: 1px solid #063700;
+ width: 60%;
+ margin: 40px auto;
+ text-align: center; 
+ padding: 15px;
+ font-size: large;
+ font-weight: bold;
+}
+
+span {
+ font-weight: bold;
+ color: #003705;
+}
+
+table {
+ width: 50%;
+ margin: 30px auto;
+ border: 1px solid #458a56;
+ background-color: #ffffffaf;
+}
+
+td, th {
+ border: 1px solid #458a45;
+ padding: 10px;
+}
+
+th {
+ background: #003709;
+ color: #fff;
+}
+
+td {
+ text-align: center;
+}
+
+a {
+ color: red;
+ text-align: center;
+ font-size: 22px;
+ display: block;
+}
+
+input[name*="nome"]
+ {
+ width: 300px;
+ }
+
+ legend {
+   font-weight: bold;
+   font-size: large;
+ }
+
+ caption {
+  padding: 20px;
+  font-size: large;
+ }

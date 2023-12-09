@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Banco de dados com PHP - Prova 2 </title> 
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head> 
+
+<body> 
+ <h1> PHP Games </h1>
+ <form action="./../php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Cadastro de jogos </legend>
+
+   <label class="alinha"> Nome: </label>
+   <input type="text" name="nome" autofocus> <br>
+
+   <label class="alinha"> Preço de venda: </label>
+   <input type="number" name="preco" min="0" step="0.01"> <br>  
+
+   <button name="cadastrar"> Cadastrar jogo </button>
+  </fieldset>
+
+  <fieldset>
+    <legend> Informações sobre os preços dos jogos cadastrados </legend>    
+    <button name="executar-operacao"> Mostrar informações </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 

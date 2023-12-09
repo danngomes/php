@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Banco de dados com PHP </title> 
+  <link rel="stylesheet" href="./../css/formata-banco.css">
+</head> 
+
+<body> 
+ <h1> Banco de Dados MySQL com PHP - Curso AAA </h1>
+ <form action="./../php/recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Cadastro de alunos </legend>
+
+   <label class="alinha"> Nome do(a) aluno(a): </label>
+   <input type="text" name="nome-aluno" autofocus> <br>
+
+   <label class="alinha"> Matrícula: </label>
+   <input type="text" name="matricula"> <br>
+   <center><button name="cadastrar-aluno"> Cadastrar aluno(a) </button></center>
+  </fieldset>
+
+  <fieldset>
+    <legend> Cadastro de unidades curriculares </legend>
+ 
+    <label class="alinha"> Nome da unidade curricular: </label>
+    <input type="text" name="nome-unidade"> <br>
+ 
+    <label class="alinha"> Código da unidade curricular: </label>
+    <input type="text" name="codigo-unidade"> <br>
+
+    <label class="alinha"> Matrícula do(a) aluno(a) participante: </label>
+    <input type="text" name="aluno-matriculado"> <br>
+
+  <center><button name="cadastrar-unidade"> Cadastrar unidade </button></center>
+  </fieldset>
+
+  <fieldset>
+    <legend> Pesquisa de estudantes </legend>
+ 
+    <label class="alinha"> Nome do(a) aluno(a) pesquisado(a): </label>
+    <input type="text" name="pesquisa-nome-aluno"> <br>
+
+  <center><button name="pesquisa-aluno"> Mostrar unidades curriculares cursadas </button></center>
+  </fieldset>
+ 
+ </form>    
+</body> 
+</html> 
